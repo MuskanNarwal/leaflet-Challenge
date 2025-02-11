@@ -10,7 +10,7 @@ let myMap = L.map("map", {
   }).addTo(myMap);
   
   // Fetch the earthquake data
-  let apiUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson";
+  let apiUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
   
   // Define a function to determine marker size based on magnitude
   function markerSize(magnitude) {
